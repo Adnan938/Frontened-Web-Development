@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Enquiry Form</legend>
+        <form >
+        <label for="">Name</label><br/>
+        <input type="text" pattern="[a-zA-Z ]{3-40}" placeholder="Enter Your Name" name="uname"/><br/>
+        <label for="">Email</label><br/>
+        <input type="email" placeholder="Enter Your Email" name="uemail"/>
+        <br/>
+        <label for="">Phone</label><br/>
+        <input type="tel" pattern="[0-9]{11}" title="ENter The valid Phone number with 11 Digits" placeholder="Enter The number" name="uphone">
+        <br/>
+        <label for="">Gender</label>
+        <input type="radio" value="Male" name="gender"/>Male
+        <input type="radio" value="Female" name="gender"/>Female
+        <br/>
+        <label for="">Courses</label><br/>
+        <input type="checkbox" value="php">PHP
+        <input type="checkbox" value="C++">C++
+        <input type="checkbox" value="Python">Python
+        <input type="checkbox" value="Java">Java
+        <br/>
+        <label>Countrty</label>
+        <select>
+            <option>----Select Countrty----</option>
+            <option value="India">India</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="US">US</option>
+            <option value="Africa">Africa</option>
+            <option value="England">England</option>
+            <option value="Aus">Aus</option>
+        </select>
+        <br/>
+        <label>Courses</label>
+        <select>
+        <optgroup label="Frontened">
+            <option>HTMl</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+        </optgroup>
+        <optgroup label="Backened">
+            <option>Node js</option>
+            <option>Php</option>
+            <option>MongoDb</option>
+        </optgroup>
+         </select>
+         <br/>
+        <label>Message</label><br/>
+        <textarea name="" id=""></textarea>
+        <br/>
+        <label>Upload Photo</label><br/>
+        <input type="file">
+        <br/>
+        <br/>
+        <label>Password</label><br/>
+        <input type="password">
+        <br/>
+        <br/>
+        <button type="submit">Save</button>
+        <input type="Submit" value="Go">
+    </form>
+    </fieldset>
+</body>
+</html>

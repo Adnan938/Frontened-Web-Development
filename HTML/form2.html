@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>HTML Form Inputs</legend>
+        <form >
+            <label>Name</label><br/>
+            <input type="text" required min length="5" maxlength="10"> <br/>
+
+            <label>Qty</label><br/>
+            <input type="number" min="1" max="10"> <br/>
+
+            <label>Booking Date</label><br/>
+            <input type="date"><br/>
+
+            <label>Appointment Time</label><br/>
+            <input type="time"><br/>
+
+            <label>Week</label><br/>
+            <input type="week"> <br/>
+
+            <label>Month</label><br/>
+            <input type="month"><br/>
+
+            <label>Color</label><br/>
+            <input type="color"> <br/><br/>
+
+            <label>Url</label><br/>
+            <input type="url"><br/>
+
+            <label>Range</label><br/>
+            <input type="range"><br/>
+
+            <!-- For Suggestion -->
+            Data List <br/>
+            <input type="text" list="course">
+            <datalist id="course">
+                <option value="PHP"/>
+                <option value="Data Science"/>
+                <option value="Artificial Intelligence"/>
+            </datalist><br/>
+
+            <button>Submit</button>
+            <button type="reset">Reset</button>
+    
+        </form>
+    </fieldset>
+</body>
+</html>
