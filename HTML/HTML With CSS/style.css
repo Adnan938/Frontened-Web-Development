@@ -1,0 +1,121 @@
+
+.body{
+    background-color: rgb(234, 232, 232);
+    font-family: 'Times New Roman', Times, serif;
+}
+.main{
+    width: 1000px;
+    height: 640px;
+    background-color: rgb(84, 17, 17);
+    font-family: sans-serif;
+    border-color: rgb(18, 4, 4);
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+  
+}
+.row1{
+    width: 1000px;
+    height: 80px;
+    background-color: rgb(84, 17, 17);
+    color: white;
+    font-size: 50px;
+    text-align: center ;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: capitalize;
+    justify-content: center;
+    border-radius: 10px;
+    padding-top: 20px;
+
+    /* word-spacing: 25px;
+    letter-spacing: 5px; */
+}
+.row2{
+    width: 1002x;
+    height: 40px; 
+    text-align: center;
+    justify-content: center;
+
+}
+.row2cl1{
+    width: 198px;
+    height: 35px;
+    background-color: rgb(109, 50, 50);
+    float: left;
+    color: white;
+    border: 1px solid white;
+    padding-top: 10px;
+   
+
+}
+.row3{
+    width: 1000px;
+    height: 200px;
+    background-color: yellow;
+}
+.row3left{
+    width: 245px;
+    height: 200px;
+    background-color: blue;
+    float: left;
+    border: 1px solid rgb(20, 8, 8);
+
+   
+}
+.row3right{
+    width: 748px;
+    height: 200px;
+    background-color: blue;
+    float: left;
+    border: 1px solid white;
+
+}
+.row3r1{
+    width: 245px;
+    height: 37px;
+    background-color: rgb(84, 17, 17);
+    color: white;
+    text-align: center ;
+    border: 1px solid white;
+    padding-top: 8px;
+
+}
+.row4{
+    width: 1000px;
+    background-color: rgb(84, 17, 17);
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    border: 1px solid white;
+}
+.row5{
+    width: 1000px;
+    height: 200px;
+    background-color: rgb(62, 20, 20);
+}
+.image1{
+    width: 331px;
+    height: 200px;
+    float: left;
+    border: 1px solid white;
+
+}
+.footer{
+    width: 1000px;
+    height: 50px;
+    background-color: rgb(84, 17, 17);
+    text-align: center;
+    font-size: x-large;
+    color: white    ;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding-top: 15px;
+
+
+
+
+}

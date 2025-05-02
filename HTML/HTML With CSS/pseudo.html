@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+       p{
+        font-family: "Inter", sans-serif;
+            font-size: 40px;
+            color: green;
+        }
+        .main p{
+            font-size: 40px;
+            color: red;
+        }
+        .main p:last-child{
+            color: blue;
+        }
+        .main p:nth-child(2){
+            color: orange;
+        }
+        .hoverbox{
+            height: 400px;
+            width: 500px;
+            background-color: bisque;
+            display: flex;
+            margin: auto;
+            font-family: "Inter", sans-serif;       
+            justify-content: center;
+        }
+        .hoverbox:hover{
+            background-color: blue;
+            color: white;
+            border-radius: 10px;
+            transition: 2s;
+            font-family: "Inter", sans-serif
+        }
+        .slinks i{
+            font-size: 100px;
+            color: blue;
+            transition: 0.5s;
+        }
+        .slinks i:hover{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="slinks">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-youtube"></i>
+    </div>
+    <div class="main">
+        <p>Hello</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, adipisci quos nostrum consectetur perspiciatis quia vero praesentium earum, beatae sint fugit. Eius neque sit at corrupti, ipsam voluptate nulla temporibus.</p>
+        <p>Adnan</p>
+        <p>Shakir</p>
+    </div>
+    <p>Web Developer</p>
+    <div class="hoverbox">Welcome To Webpage</div>
+</body>
+</html>
